@@ -10,6 +10,8 @@
 
 export default {
 	async fetch(request, env, ctx) {
-		return new Response('Hello World!');
-	},
+		const url = new URL(request.url);
+		const { pathname } = url;
+		return Response.redirect(`https://github.com/kresnasatya${pathname}`, 301);
+	}
 };
