@@ -17,6 +17,8 @@ export default {
 				return Response.redirect(`https://github.com/kresnasatya${pathname}`, 301);
 			case 'linkedin.kresna.me':
 				return Response.redirect(`https://linkedin.com/in/kresnasatya`, 301);
+			case 'twitter.kresna.me':
+				return Response.redirect(`https://twitter.com/_kresnasatya`, 301);
 			case 'youtube.kresna.me':
 				let redirectUrl = 'https://youtube.com/@kresnasatya';
 				switch (pathname) {
