@@ -1,3 +1,8 @@
-# Cloudflare Worker for Redirect to GitHub Profile
+# navigator.kresna.me
 
-This repo use to redirect to my GitHub profile with Cloudflare Worker.
+Navigate to my entity in internet with Cloudflare Workers and deploy with GitHub actions.
+
+## How to run?
+
+1. Clone repo.
+2. Use pnpm to install deps and use `pnpm run dev` to run in development mode.
